@@ -1,0 +1,10 @@
+.container
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 50px auto;
+    width: 1000px;
+}
+.container h1
+{   
+   padding-bottom: 30px;
+}

@@ -1,0 +1,28 @@
+.notice
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 50px auto;
+    width: 1000px;
+}
+.td{
+    cursor:hand;
+}
+.notice h1
+{   
+   padding-bottom: 30px;
+}
+.brand{
+    font-family: 'Oswald', sans-serif;
+}
+button
+{
+    float:right;
+}
+@media screen and (max-width: 1000px) 
+{
+    .notice
+    {
+    margin: 30px auto;
+    width: 500px;
+    }
+}

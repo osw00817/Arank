@@ -1,0 +1,76 @@
+body
+{
+    width: 100%;
+    height:100%;
+}
+.jumbotron
+{
+    background-image: url("http://img.chuing.net/g/?id=swordart&no=12473&num=0&fc=b4112ba2f7833ef88e1bc884f2e4a721");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+}
+.jumbotron > h1
+{
+    margin-top: 100px;
+    color:white;
+    text-shadow: 2px 2px 2px gray;
+}
+.jumbotron > p
+{
+    color:white;
+    font-size: 20px;;
+    text-shadow: 2px 2px 2px gray;
+}
+.td{
+    cursor:hand;
+}
+.TOP3
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    display:block;
+    width: 50%;
+    height: 100%;
+    margin:auto;
+    margin-top:50px;
+}
+.TOP3 > hr
+{
+   border: 1px solid gray;
+}
+.TOP3 > .Top3_grid
+{
+    display:grid;
+    grid-template-columns: repeat(3,34%);
+    grid-template-rows: 400px;;
+}
+.TOP3 > .Top3_grid > .TOP
+{
+    margin: 20px 10px 0px 0px;
+}
+footer
+{
+    color:white;
+    height:200px;
+    margin-top:100px;
+    background-color:#3d3f56;
+}
+@media screen and (max-width: 1000px) {
+    body
+    {
+        margin:0px;
+        padding:0px;
+    }
+    .TOP3 > .Top3_grid
+    {
+    display:grid;
+    grid-template-columns: repeat(3,34%);
+    grid-template-rows: 250px;;
+    }
+    .TOP3
+    {
+        width:60%;
+    }
+}
+

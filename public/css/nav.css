@@ -1,0 +1,33 @@
+nav
+{
+    min-height:80px;
+    background-color: white;
+}
+a
+{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.navbar-brand
+{
+    margin-left:300px;
+    font-family: 'Oswald', sans-serif;
+}
+.form-inline
+{
+    margin-right:200px;
+}
+@media screen and (max-width: 1000px) {
+    body
+    {
+        margin:0px;
+        padding:0px;
+    }
+    .navbar-brand
+    {
+        margin-left:100px;
+    }
+    .form-inline
+    {
+    margin-right:0px;
+    }
+}

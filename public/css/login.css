@@ -1,0 +1,34 @@
+*
+        {
+            margin:0px;
+            padding:0px;
+            background-color: #f2f2f2; 
+        }
+        div
+        {
+            background-color: #f2f2f2;
+            height:100vh;
+            width:100vh;
+            border: 0px solid #000;
+            display:table-cell;
+            vertical-align: middle;
+        }
+        h1{
+            font-family: 'Gothic A1', sans-serif;
+            font-size: 50px;
+        }
+        p
+        {
+            margin-top:-10px;
+            padding-top:0px;
+            font-family: 'Jua', sans-serif;
+            font-size: 20px;
+        }
+        img
+        {
+            margin-top:30px;
+        }
+        span
+        {
+            font-family: 'Jua', sans-serif;
+        }
